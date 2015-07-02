@@ -6,7 +6,7 @@
   template: src=Dockerfile dest=/root/oracle-java-8-dockerized/Dockerfile
 
 - name: build a Docker image for Oracle Java 8
-  command: docker build -t gitinsky/oracle-java-8:0.1.5 --rm /root/oracle-java-8-dockerized
+  command: docker build -t gitinsky/oracle-java-8:0.1.6 --rm /root/oracle-java-8-dockerized
 
 - name: tag it as latest
   command: docker build -t gitinsky/oracle-java-8:latest --rm /root/oracle-java-8-dockerized
