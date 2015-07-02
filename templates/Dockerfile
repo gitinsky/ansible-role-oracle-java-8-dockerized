@@ -1,4 +1,4 @@
-FROM gitinsky/baseimage:0.1.5
+FROM gitinsky/baseimage:0.1.6
 MAINTAINER Git In Sky <support@gitinsky.com>
 
 ENV JAVA_HOME=/jdk1.8.0_45
